@@ -1,0 +1,221 @@
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: right;
+}
+.card .card-title {
+    font-size: 1.2em !important;
+    padding: 1em;
+}
+table.table td a.edit {
+    color: #ffc107;
+}
+table.table td a.delete {
+    color: #f00;
+}
+.actions a {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.active{
+    margin-left: 0px!important;
+}
+.hide-sidebar{
+    margin-left: -260px;
+}
+.togside{
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: -28px;
+    background: #5f76e8;
+    color: #fff;
+    padding: 5px;
+}
+.togside:hover {
+    color: #5f76e8;
+    background: #fff;
+}
+.daterangepicker .ranges ul {
+    width: 170px;
+}
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {
+    background-color: #f7f8fa;
+    color: #5d78ff;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+.daterangepicker .ranges li {
+    font-size: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family:Rubik;
+}
+.daterangepicker .ranges li {
+    padding: .7rem 1.75rem;
+    font-weight: 400;
+    font-size: 14px!important;
+    color: #595d6e;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+.kt-subheader .kt-subheader__toolbar .btn:not(.dropdown-toggle-split) {
+    margin-left: .25rem;
+}
+.kt-subheader .btn {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 32px!important;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-size: 14px!important;
+}
+.kt-subheader__btn-secondary{
+    font-size:14px!important;
+}
+#demo {
+    background: #f2f3f7;
+    font-size: 14px;
+}
+#demo:focus {
+    background: #eaeaef;
+}
+.daterangepicker .ranges {
+    float: none;
+    text-align: left;
+    margin: 0;
+}
+ul.chartdetails{
+    margin-top: 2em;
+    display: block;
+}
+.daterangepicker .drp-selected {
+    font-family: Rubik;
+}
+.kt-subheader .kt-subheader__toolbar .btn:not(.dropdown-toggle-split) {
+    margin-left: .25rem;
+}
+.kt-subheader__btn-secondary:hover, .kt-subheader__btn-secondary:focus {
+    background: #f2f3f7;
+    color: #5d78ff!important;
+}
+.kt-subheader .kt-subheader__btn-secondary {
+    color: #959cb6;
+    font-weight: 500;
+}
+.kt-subheader__btn-daterange-date {
+    display: inline-block;
+    color: #5d78ff;
+    margin-right: .45rem;
+    font-weight: 500;
+}
+.kt-subheader__btn-daterange i {
+    color: #5d78ff;
+    font-size: 15px;
+}
+.daterangepicker .drp-calendar th.month {
+    font-weight: 400;
+    color: #74788d;
+    font-family: Rubik;
+}
+.daterangepicker .drp-calendar th {
+    font-size: 14px;
+}
+.daterangepicker .calendar-table td, .daterangepicker .calendar-table th {
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 32px;
+    width: 32px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    font-family: Rubik;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.daterangepicker td.available:hover, .daterangepicker th.available:hover {
+    background-color: #eee;
+    border-color: transparent;
+    color: inherit;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #5f76e8;
+    border-color: transparent;
+    color: #fff;
+}
+.daterangepicker .drp-buttons .btn {
+    font-size: .9rem;
+    font-weight: 400;
+    padding: .5rem 1rem;
+    border-radius: 0;
+    border-radius: 4px;
+    font-family: Rubik;
+}
+.daterangepicker .drp-calendar th.prev span {
+    margin-left: 1px;
+}
+.daterangepicker .drp-calendar th.next span, .daterangepicker .drp-calendar th.prev span {
+    border-width: 0 1px 1px 0;
+    border-color: #74788d;
+}
+.daterangepicker .calendar-table .prev span {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.daterangepicker .calendar-table .next span, .daterangepicker .calendar-table .prev span {
+    color: #fff;
+    border: solid #000;
+    border-radius: 0;
+    display: inline-block;
+    padding: 3px;
+}
+[data-title] {
+    position: relative;
+}
+[data-title]:after {
+    content: attr(data-title); 
+    display:block;
+    position:absolute;
+    border:1px solid #d9d9d9;
+    border-radius:3px;
+    background:#fff;
+    color:#74788d;
+    padding:7px;
+    text-align:center;
+    white-space:nowrap;
+    font-size: 12px;
+    visibility: hidden;
+    right:100%;
+    margin-right: 5px;
+    top:0;
+}
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+td.off.ends.available {
+    color: #fff;
+    background: #fff;
+      cursor: not-allowed;
+  }
+@media (min-width: 730px){
+    .daterangepicker .ranges {
+        width: auto;}
+    .daterangepicker .ranges {
+            float: left;}
+    }
+#dashboardis{
+        background: #f2f3f7;
+        font-size: 14px;
+}

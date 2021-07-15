@@ -1,0 +1,476 @@
+.blue {background: #3498db;color: #fff;}
+.red {background: #e74c3c;color: #fff;}
+.green {background: #27ae60;color: #fff;}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: right;
+}
+.card .card-title {
+    font-size: 1.2em !important;
+}
+table.table td a.edit {
+    color: #ffc107;
+}
+table.table td a.delete {
+    color: #f00;
+}
+.actions a {
+    margin-right: 10px;
+    cursor: pointer;
+}
+#openup{
+    cursor: pointer;
+}
+.modal table{
+        table-layout: fixed;
+}
+table th{
+        cursor: pointer;
+}
+.togside{
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: -28px;
+    background: #5f76e8;
+    color: #fff;
+    padding: 5px;
+}
+.togside:hover {
+    color: #5f76e8;
+    background: #fff;
+}
+.daterangepicker .ranges ul {
+    width: 170px;
+}
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {
+    background-color: #f7f8fa;
+    color: #5d78ff;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+.daterangepicker .ranges li {
+    font-size: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family:Rubik;
+}
+.daterangepicker .ranges li {
+    padding: .7rem 1.75rem;
+    font-weight: 400;
+    font-size: 14px!important;
+    color: #595d6e;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+.kt-subheader .kt-subheader__toolbar .btn:not(.dropdown-toggle-split) {
+    margin-left: .25rem;
+}
+.kt-subheader .btn {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 32px!important;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-size: 14px!important;
+}
+.kt-subheader__btn-secondary{
+    font-size:14px!important;
+}
+#demo {
+    background: #f2f3f7;
+    font-size: 14px;
+}
+#demo:focus {
+    background: #eaeaef;
+}
+.daterangepicker .ranges {
+    float: none;
+    text-align: left;
+    margin: 0;
+}
+.daterangepicker .drp-selected {
+    font-family: Rubik;
+}
+.kt-subheader .kt-subheader__toolbar .btn:not(.dropdown-toggle-split) {
+    margin-left: .25rem;
+}
+.kt-subheader__btn-secondary:hover, .kt-subheader__btn-secondary:focus {
+    background: #f2f3f7;
+    color: #5d78ff!important;
+}
+.kt-subheader .kt-subheader__btn-secondary {
+    color: #959cb6;
+    font-weight: 500;
+}
+.kt-subheader__btn-daterange-date {
+    display: inline-block;
+    color: #5d78ff;
+    margin-right: .45rem;
+    font-weight: 500;
+}
+.kt-subheader__btn-daterange i {
+    color: #5d78ff;
+    font-size: 15px;
+}
+.daterangepicker .drp-calendar th.month {
+    font-weight: 400;
+    color: #74788d;
+    font-family: Rubik;
+}
+.daterangepicker .drp-calendar th {
+    font-size: 14px;
+}
+.daterangepicker .calendar-table td, .daterangepicker .calendar-table th {
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 32px;
+    width: 32px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    font-family: Rubik;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.daterangepicker td.available:hover, .daterangepicker th.available:hover {
+    background-color: #eee;
+    border-color: transparent;
+    color: inherit;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #5f76e8;
+    border-color: transparent;
+    color: #fff;
+}
+.daterangepicker .drp-buttons .btn {
+    font-size: .9rem;
+    font-weight: 400;
+    padding: .5rem 1rem;
+    border-radius: 0;
+    border-radius: 4px;
+    font-family: Rubik;
+}
+.daterangepicker .drp-calendar th.prev span {
+    margin-left: 1px;
+}
+.daterangepicker .drp-calendar th.next span, .daterangepicker .drp-calendar th.prev span {
+    border-width: 0 1px 1px 0;
+    border-color: #74788d;
+}
+.daterangepicker .calendar-table .prev span {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.daterangepicker .calendar-table .next span, .daterangepicker .calendar-table .prev span {
+    color: #fff;
+    border: solid #000;
+    border-radius: 0;
+    display: inline-block;
+    padding: 3px;
+}
+[data-title] {
+    position: relative;
+}
+[data-title]:after {
+    content: attr(data-title); 
+    display:block;
+    position:absolute;
+    border:1px solid #d9d9d9;
+    border-radius:3px;
+    background:#fff;
+    color:#74788d;
+    padding:7px;
+    text-align:center;
+    white-space:nowrap;
+    font-size: 12px;
+    visibility: hidden;
+    right:100%;
+    margin-right: 5px;
+    top:0;
+}
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+.hide-sidebar{
+    margin-left: -260px;
+}
+.active{
+    margin-left: 0!important;
+}
+td.off.ends.available {
+  color: #fff;
+  background: #fff;
+    cursor: not-allowed;
+}
+a.download i{
+  color: #00da4d;
+}
+.table-wrapper .table-bordered,.table-wrapper .table-bordered td,.table-wrapper .table-bordered th {
+      white-space: nowrap;
+        overflow: hidden;
+    }
+    #table {
+    width: auto!important;
+    }
+#exportis {
+    overflow: scroll;
+}
+@media (min-width: 730px){
+.daterangepicker .ranges {
+    width: auto;}
+.daterangepicker .ranges {
+        float: left;}
+}
+
+@media (max-width: 768px){
+    /* .blue, .green, .red{color:#7c8798;background:transparent;} */
+
+    .table-responsive table {
+      display: block;
+      border: 1px solid #eee;
+      border-radius: 24px;
+  }
+      .table-responsive table > *,.table-responsive table tr,.table-responsive table td,.table-responsive table th {
+        display: block;
+        position: relative;
+      }
+      .table-responsive table thead {
+        display: none;
+      }
+      .table-responsive table tbody tr {
+        height: auto;
+        padding: 37px 0;
+        background: #eeeeee36;
+      }
+      .table-responsive table tbody tr td {
+        padding-left: 50% !important;
+        margin-bottom: 5px;
+        line-height: 2;
+    }
+    .table-responsive table tbody tr td:last-child {
+        margin-bottom: 0;
+      }
+      .table-responsive table tbody tr td:before {
+        font-size: 15px;
+        color: #7c8798;
+        line-height: 4;
+        font-weight: unset;
+        position: absolute;
+        width: 45%;
+        left: 0;
+        top: 0;
+        text-align: center;
+        border-radius: 5px 0px 0px 5px;
+    }
+    .table-responsive .table td,.table-responsive .table th {
+      border-top: 0;
+      border-bottom: 1px solid #e0e0e0;}
+    .table-responsive table tbody tr td:nth-child(1){
+        display: none;
+      }
+      .table-responsive table tbody tr td:nth-child(2):before {
+        content: "Date:";
+      }
+      .table-responsive table tbody tr td:nth-child(3):before {
+        content: "T.Capital:";
+      }
+      .table-responsive table tbody tr td:nth-child(4):before {
+        content: "T.Profit:";
+      }
+      .table-responsive table tbody tr td:nth-child(5):before {
+        content: "Confirm.Rate:";
+      }
+      .table-responsive table tbody tr td:nth-child(6):before {
+        content: "Deliv.Rate:";
+      }
+      .table-responsive table tbody tr td:nth-child(7):before {
+        content: "Actions:";
+      }
+    
+      .column4,
+      .column5,
+      .column6 {
+        text-align: left;
+      }
+    
+      .column4,
+      .column5,
+      .column6,
+      .column1,
+      .column2,
+      .column3 {
+        width: 100%;
+      }
+    
+      .table-responsive tbody tr {
+        font-size: 14px;
+      }
+      .table-responsive tbody tr:nth-child(even) {
+        background-color: #f5f5f5;
+    }
+    .card-body {
+      padding: 25px 5px;
+  }
+      .table-wrapper table {
+        display: block;
+      }
+      .table-wrapper table > *,.table-wrapper table tr,.table-wrapper table td,.table-wrapper table th {
+        display: block;
+        position: relative;
+      }
+      .table-wrapper table thead {
+        display: none;
+      }
+      .table-wrapper table tbody tr {
+        height: auto;
+        padding: 37px 0;
+        background: #eeeeee36;
+      }
+      .table-wrapper table tbody tr td {
+        padding-left: 50% !important;
+        margin-bottom: 5px;
+        line-height: 2;
+    }
+    .table-wrapper table tbody tr td:last-child {
+        margin-bottom: 0;
+      }
+      .table-wrapper table tbody tr td:before {
+        font-size: 15px;
+        color: #7c8798;
+        line-height: 4;
+        font-weight: unset;
+        position: absolute;
+        width: 45%;
+        left: 0;
+        top: 0;
+        text-align: center;
+        border-radius: 5px 0px 0px 5px;
+    }
+    .table-wrapper table tbody tr td:nth-child(1):before{
+        content: "Product Name";
+      }
+      .table-wrapper table tbody tr td:nth-child(2):before {
+        content: "All Orders:";
+      }
+      .table-wrapper table tbody tr td:nth-child(3):before {
+        content: "Cfrm Orders:";
+      }
+      .table-wrapper table tbody tr td:nth-child(4):before {
+        content: "Delv.Orders:";
+      }
+      .table-wrapper table tbody tr td:nth-child(5):before {
+        content: "Cfrm.Rate:";
+      }
+      .table-wrapper table tbody tr td:nth-child(6):before {
+        content: "Delv.Rate";
+      }
+      .table-wrapper table tbody tr td:nth-child(7):before {
+        content: "Capital:";
+        background: #3498db;
+        color:#fff;
+      }
+      .table-wrapper table tbody tr td:nth-child(8):before {
+        content: "Cost.P:";
+      }
+      .table-wrapper table tbody tr td:nth-child(9):before {
+        content: "Devl.P:";
+      }
+      .table-wrapper table tbody tr td:nth-child(10):before {
+        content: "Ads:";
+      }
+      .table-wrapper table tbody tr td:nth-child(11):before {
+        content: "Cfrm.Fees:";
+      }
+      .table-wrapper table tbody tr td:nth-child(12):before {
+        content: "Ttl.Exps:";
+        background: #e74c3c;
+        color:#fff;
+      }
+      .table-wrapper table tbody tr td:nth-child(13):before {
+        content: "Profit :";
+        background: #27ae60;
+        color:#fff;
+      }
+      .table-wrapper table tbody tr td:nth-child(14):before {
+        content: "Prft.Per.O:";
+      }
+      .table-wrapper table tbody tr td:nth-child(15):before {
+        content: "Exps.Per.O:";
+      }
+      .table-wrapper table tbody tr td:nth-child(17):before {
+        content: "Ad.C.Per.D:";
+      }
+      .table-wrapper table tbody tr td:nth-child(18):before {
+        content: "Actions:";
+      }
+    
+      .column4,
+      .column5,
+      .column6 {
+        text-align: left;
+      }
+    
+      .column4,
+      .column5,
+      .column6,
+      .column1,
+      .column2,
+      .column3 {
+        width: 100%;
+      }
+    
+      .table-wrapper tbody tr {
+        font-size: 14px;
+      }
+      .table-wrapper tbody tr:nth-child(even) {
+        background-color: #f5f5f5;
+      }
+
+    .togside{display: none;}
+   }
+
+   @media (max-width: 375px){
+    .page-breadcrumb .customize-input{float:none!important;text-align: center;padding: 10px;}
+    a.btn.kt-subheader__btn-secondary, a.btn.kt-subheader__btn-daterange{padding: .3rem .4rem;font-size: 13px!important;width: 45%;background: #f2f3f7;margin-bottom: 4px;}
+    #dashboardis {background: #f2f3f7;font-size: 13px;width:100%}
+    
+        }
+    
+    @media (max-width: 425px){
+      .page-breadcrumb .customize-input{float:none!important;text-align: center;padding-top: 10px;}
+      .page-breadcrumb {text-align: center;}
+      .page-breadcrumb nav{margin:auto;}
+      .page-wrapper>.container-fluid {
+        padding: 35px 5px!important;}
+     }
+    /* .table-wrapper .table-bordered,.table-wrapper .table-bordered td,.table-wrapper .table-bordered th {*/
+    /*  border: 0;    */
+    /*}*/
+      .table-wrapper .table td,.table-responsive .table th {
+        border-top: 0;
+        border-bottom: 1px solid #e0e0e0;}
+    .table-wrapper thead {
+      background: #36304a;
+      color:#fff;
+  }
+.productsContainer{
+  border: 1px solid #eeee;
+}
+.table-wrapper tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+  border-top: 1px solid #666;
+}

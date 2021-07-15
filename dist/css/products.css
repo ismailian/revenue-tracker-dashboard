@@ -1,0 +1,202 @@
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: right;
+}
+.card .card-title {
+  font-size: 1.2em !important;
+}
+table.table td a.edit {
+  color: #ffc107;
+}
+table.table td a.delete {
+  color: #f00;
+}
+.actions a {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.active{
+  margin-left: 0px!important;
+}
+.hide-sidebar{
+  margin-left: -260px;
+}
+.togside{
+  position: absolute;
+  right: 0;
+  font-size: 24px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-right: -28px;
+  background: #5f76e8;
+  color: #fff;
+  padding: 5px;
+}
+.togside:hover {
+  color: #5f76e8;
+  background: #fff;
+}
+
+@media (max-width: 425px){
+table {
+  display: block;
+}
+table > *, table tr, table td, table th {
+  display: block;
+  position: relative;
+}
+table thead {
+  display: none;
+}
+table tbody tr {
+  height: auto;
+  padding: 37px 0;
+}
+table tbody tr td {
+  padding-left: 50% !important;
+  margin-bottom: 5px;
+  line-height: 2;
+}
+table tbody tr td:last-child {
+  margin-bottom: 0;
+}
+table tbody tr td:before {
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 4;
+  font-weight: unset;
+  position: absolute;
+  width: 45%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  border-radius: 5px 0px 0px 5px;
+}
+table tbody tr td:nth-child(1){
+  display: none;
+}
+table tbody tr td:nth-child(2):before {
+  content: "Product Name:";
+}
+table tbody tr td:nth-child(3):before {
+  content: "Fournisseur:";
+}
+table tbody tr td:nth-child(4):before {
+  content: "Sale Price:";
+}
+table tbody tr td:nth-child(5):before {
+  content: "Cost Price:";
+}
+table tbody tr td:nth-child(6):before {
+  content: "Actions:";
+}
+
+.column4,
+.column5,
+.column6 {
+  text-align: left;
+}
+
+.column4,
+.column5,
+.column6,
+.column1,
+.column2,
+.column3 {
+  width: 100%;
+}
+
+tbody tr {
+  font-size: 14px;
+}
+.card .card-title {
+  font-size: 1em !important;
+  text-align: center;}
+  #addnew{float:none!important;}
+  .page-wrapper>.container-fluid {
+      padding: 10px;}
+}
+@media (max-width: 768px){
+  table {
+      display: block;
+    }
+    table > *, table tr, table td, table th {
+      display: block;
+      position: relative;
+    }
+    table thead {
+      display: none;
+    }
+    table tbody tr {
+      height: auto;
+      padding: 37px 0;
+      background: #eeeeee36;
+    }
+    table tbody tr td {
+      padding-left: 50% !important;
+      margin-bottom: 5px;
+      line-height: 2;
+  }
+    table tbody tr td:last-child {
+      margin-bottom: 0;
+    }
+    table tbody tr td:before {
+      font-size: 15px;
+      color: #7c8798;
+      line-height: 4;
+      font-weight: unset;
+      position: absolute;
+      width: 45%;
+      left: 0;
+      top: 0;
+      text-align: center;
+      border-radius: 5px 0px 0px 5px;
+  }
+    table tbody tr td:nth-child(1){
+      display: none;
+    }
+    table tbody tr td:nth-child(2):before {
+      content: "Product Name:";
+    }
+    table tbody tr td:nth-child(3):before {
+      content: "Fournisseur:";
+    }
+    table tbody tr td:nth-child(4):before {
+      content: "Sale Price:";
+    }
+    table tbody tr td:nth-child(5):before {
+      content: "Cost Price:";
+    }
+    table tbody tr td:nth-child(6):before {
+      content: "Actions:";
+    }
+  
+    .column4,
+    .column5,
+    .column6 {
+      text-align: left;
+    }
+  
+    .column4,
+    .column5,
+    .column6,
+    .column1,
+    .column2,
+    .column3 {
+      width: 100%;
+    }
+  
+    tbody tr {
+      font-size: 14px;
+    }
+  .togside{display: none;}
+  table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  .table td,.table th {
+    border-top: 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+ }

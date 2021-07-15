@@ -1,0 +1,309 @@
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: right;
+}
+.card .card-title {
+  font-size: 1.2em !important;
+}
+table.table td a.edit {
+  color: #ffc107;
+}
+table.table td a.delete {
+  color: #f00;
+}
+.actions a {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.tail-select {
+  width: 100%;
+}
+.hide-sidebar{
+  margin-left: -260px;
+}
+.active{
+  margin-left: 0!important;
+}
+.togside{
+  position: absolute;
+  right: 0;
+  font-size: 24px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-right: -28px;
+  background: #5f76e8;
+  color: #fff;
+  padding: 5px;
+}
+.togside:hover {
+  color: #5f76e8;
+  background: #fff;
+}
+
+@media (max-width: 768px){
+ .table-responsive table {
+      display: block;
+    }
+    .table-responsive table > *,.table-responsive table tr,.table-responsive table td,.table-responsive table th {
+      display: block;
+      position: relative;
+    }
+    .table-responsive table thead {
+      display: none;
+    }
+    .table-responsive table tbody tr {
+      height: auto;
+      padding: 37px 0;
+    }
+    .table-responsive table tbody tr td {
+      padding-left: 50% !important;
+      margin-bottom: 5px;
+      line-height: 2;
+  }
+  .table-responsive table tbody tr td:last-child {
+      margin-bottom: 0;
+    }
+    table tbody tr td:before {
+      font-size: 15px;
+      color: #7c8798;
+      line-height: 4;
+      font-weight: unset;
+      position: absolute;
+      width: 45%;
+      left: 0;
+      top: 0;
+      text-align: center;
+      border-radius: 5px 0px 0px 5px;
+      background: #eeee;
+  }
+  .table-responsive table tbody tr td:nth-child(1){
+      display: none;
+    }
+    .table-responsive table tbody tr td:nth-child(2):before {
+      content: "Date:";
+    }
+    .table-responsive table tbody tr td:nth-child(3):before {
+      content: "Product name:";
+    }
+    .table-responsive table tbody tr td:nth-child(4):before {
+      content: "All Orders:";
+    }
+    .table-responsive table tbody tr td:nth-child(5):before {
+      content: "T.Confirmed:";
+    }
+    .table-responsive table tbody tr td:nth-child(6):before {
+      content: "T.Delivred:";
+    }
+    .table-responsive table tbody tr td:nth-child(7):before {
+      content: "Ads:";
+    }
+  
+    .column4,
+    .column5,
+    .column6 {
+      text-align: left;
+    }
+  
+    .column4,
+    .column5,
+    .column6,
+    .column1,
+    .column2,
+    .column3 {
+      width: 100%;
+    }
+  
+    .table-responsive tbody tr {
+      font-size: 14px;
+    }
+  .togside{display: none;}
+  .alert-success {background: none;color:#7c8798;}
+ }
+
+ @media (max-width: 425px){
+ .card .card-title {
+  font-size: 1em !important;
+  text-align: center;}
+  #addnew{float:none!important;}
+  .page-wrapper>.container-fluid {
+      padding: 10px;}
+  }
+  .datepicker {
+    width: 265px;
+    padding: 10px
+  }
+
+  .datepicker.datepicker-orient-top {
+    margin-top: 8px
+  }
+
+  .datepicker table {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .datepicker td,
+  .datepicker th {
+    font-weight: regular;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .datepicker thead th {
+    color: #74788d
+  }
+
+  .datepicker thead th.datepicker-switch,
+  .datepicker thead th.next,
+  .datepicker thead th.prev {
+    font-weight: 500;
+    color: #74788d
+  }
+
+  .datepicker thead th.datepicker-switch i,
+  .datepicker thead th.next i,
+  .datepicker thead th.prev i {
+    font-size: 1.2rem;
+    color: #74788d
+  }
+
+  .datepicker thead th.datepicker-switch i:before,
+  .datepicker thead th.next i:before,
+  .datepicker thead th.prev i:before {
+    line-height: 0;
+    vertical-align: middle
+  }
+
+  .datepicker thead th.datepicker-switch:hover,
+  .datepicker thead th.next:hover,
+  .datepicker thead th.prev:hover {
+    background: #f7f8fa !important
+  }
+
+  .datepicker thead th.dow {
+    color: #595d6e;
+    font-weight: 500
+  }
+
+  .datepicker tbody tr>td.day {
+    color: #595d6e
+  }
+
+  .datepicker tbody tr>td.day:hover {
+    background: #ebedf2;
+    color: #595d6e
+  }
+
+  .datepicker tbody tr>td.day.old {
+    color: #74788d
+  }
+
+  .datepicker tbody tr>td.day.new {
+    color: #595d6e
+  }
+
+
+  .datepicker tbody tr>td.day.active:hover,
+  .datepicker tbody tr>td.day.selected,
+  .datepicker tbody tr>td.day.selected:hover {
+    background: #5867dd;
+    color: #fff
+  }
+
+  /* .datepicker tbody tr>td.day.today {
+    position: relative;
+    background: rgba(93, 120, 255, .7) !important;
+    color: #fff !important
+  } */
+
+  /* .datepicker tbody tr>td.day.today:before {
+    content: '';
+    display: inline-block;
+    border: solid transparent;
+    border-width: 0 0 7px 7px;
+    border-bottom-color: #fff;
+    border-top-color: #ebedf2;
+    position: absolute;
+    bottom: 4px;
+    right: 4px
+  } */
+
+  .datepicker tbody tr>td.day.range {
+    background: #f7f8fa
+  }
+
+  .datepicker tbody tr>td span.hour,
+  .datepicker tbody tr>td span.minute,
+  .datepicker tbody tr>td span.month,
+  .datepicker tbody tr>td span.year {
+    color: #595d6e
+  }
+
+  .datepicker tbody tr>td span.hour:hover,
+  .datepicker tbody tr>td span.minute:hover,
+  .datepicker tbody tr>td span.month:hover,
+  .datepicker tbody tr>td span.year:hover {
+    background: #f7f8fa
+  }
+
+  .datepicker tbody tr>td span.hour.active,
+  .datepicker tbody tr>td span.hour.active.focused:hover,
+  .datepicker tbody tr>td span.hour.active:hover,
+  .datepicker tbody tr>td span.hour.focused,
+  .datepicker tbody tr>td span.hour.focused:hover,
+  .datepicker tbody tr>td span.minute.active,
+  .datepicker tbody tr>td span.minute.active.focused:hover,
+  .datepicker tbody tr>td span.minute.active:hover,
+  .datepicker tbody tr>td span.minute.focused,
+  .datepicker tbody tr>td span.minute.focused:hover,
+  .datepicker tbody tr>td span.month.active,
+  .datepicker tbody tr>td span.month.active.focused:hover,
+  .datepicker tbody tr>td span.month.active:hover,
+  .datepicker tbody tr>td span.month.focused,
+  .datepicker tbody tr>td span.month.focused:hover,
+  .datepicker tbody tr>td span.year.active,
+  .datepicker tbody tr>td span.year.active.focused:hover,
+  .datepicker tbody tr>td span.year.active:hover,
+  .datepicker tbody tr>td span.year.focused,
+  .datepicker tbody tr>td span.year.focused:hover {
+    background: #5867dd;
+    color: #fff
+  }
+
+  .datepicker tfoot tr>th.clear,
+  .datepicker tfoot tr>th.today {
+    border-radius: 3px;
+    font-weight: 500
+  }
+
+  .datepicker tfoot tr>th.clear:hover,
+  .datepicker tfoot tr>th.today:hover {
+    background: #ebedf2
+  }
+
+  .datepicker.datepicker-inline {
+    border: 1px solid #ebedf2
+  }
+
+  .input-daterange .input-group-addon {
+    min-width: 44px
+  }
+
+  li.picker-switch.accordion-toggle {
+    display: none;
+  }
+
+  .bootstrap-datetimepicker-widget ul {
+    margin-bottom: 0 !important;
+  }
+
+  .datepicker tbody tr>td.day.old,
+  .datepicker tbody tr>td.day.new {
+    color: #fff !important;
+    background: #fff;
+  }
